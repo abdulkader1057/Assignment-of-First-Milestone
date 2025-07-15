@@ -7,6 +7,7 @@
     max-width: 1440px;
     height: 700px;
     margin: auto;
+    background-color: rgb(245, 248, 255);
     background-image: url("../Assets/Hero-bg.png");
 }
 .nav-section{
@@ -27,13 +28,20 @@
     font-size: 40px;
     font-weight: 900;
 }
-.primary-btn{
-    background-color: rgb(78, 71, 255);
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border: none;
-    border-radius: 8px;
+button {
+  padding: 14px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: green;
 }
 .hero-content{
     margin: 158px 270px;
@@ -45,9 +53,6 @@
     font-size: 65px;
     gap: 37;
     margin: 37px 0;
-}
-button .primary-btn{
-    padding: 12px 36px;
 }
 
 /* Action Preview section */
@@ -113,3 +118,61 @@ button .primary-btn{
     font-size: 25px;
     color: darkslategray;
 }
+
+/* Let’s Get In Touch Section */
+.touch{
+    max-width: 1140px;
+    height: 630px;
+    margin: 90px 150px 14px 150px;
+    padding: 70px 0;
+    background:  rgb(245, 248, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.touch-section{
+    display: flex;
+    max-width: 1000px;
+    width: 90%;
+    background-color: #f5f7ff;
+    padding: 40px 20px;
+    border-radius: 8px;
+    gap: 50px;
+}
+.left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left h4{
+    font-size: 60px;
+    font-weight: 700;
+    color: #000;
+    line-height: 1.2;
+}
+.right {
+  flex: 1;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+label {
+  font-size: 25px;
+  color: #333;
+  font-weight: bold;
+}
+
+input, textarea {
+  padding: 12px 14px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #fff;
+  resize: none;
+}
+
