@@ -79,3 +79,37 @@ button .primary-btn{
 .preview-section img{
     border-radius: 30px;
 }
+
+/* Productive Users Section */
+
+.stats {
+    background: rgba(78, 71, 255, 0.1);
+    text-align: center;
+    padding: 50px 80px;  
+    max-width: 1140px;
+    height: 310px;
+    margin: auto;
+}
+
+.stats h3 {
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(37, 36, 50);
+}
+.stat-box {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+.stat-box div {
+    font-size: 1.2rem;
+}
+.stat-box div strong{
+    color:  rgb(78, 71, 255);
+    font-size: 110px;
+}
+.color{
+    font-size: 25px;
+    color: darkslategray;
+}
