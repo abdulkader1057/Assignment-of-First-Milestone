@@ -49,3 +49,33 @@
 button .primary-btn{
     padding: 12px 36px;
 }
+
+/* Action Preview section */
+.preview-section{
+    max-width: 1440px;
+    margin: 335px 150px;
+}
+
+.section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1140px;
+    height: 328px;
+}
+.text{
+    text-align: left;
+}
+.text h3 {
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.text p{
+    color: darkslategray;
+    font-size: 25px;
+    padding-bottom: 25px;
+}
+.preview-section img{
+    border-radius: 30px;
+}
