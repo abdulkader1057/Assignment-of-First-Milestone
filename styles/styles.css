@@ -5,7 +5,7 @@
 }
 .container{
     max-width: 1440px;
-    height: 700px;
+    height: 650px;
     margin: auto;
     background-color: rgb(245, 248, 255);
     background-image: url("../Assets/Hero-bg.png");
@@ -39,7 +39,6 @@ button {
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
-
 button:hover {
   background-color: green;
 }
@@ -54,13 +53,11 @@ button:hover {
     gap: 37;
     margin: 37px 0;
 }
-
 /* Action Preview section */
 .preview-section{
     max-width: 1440px;
-    margin: 335px 150px;
+    margin: 70px 150px;
 }
-
 .section{
     display: flex;
     justify-content: space-between;
@@ -84,18 +81,15 @@ button:hover {
 .preview-section img{
     border-radius: 30px;
 }
-
 /* Productive Users Section */
-
 .stats {
     background: rgba(78, 71, 255, 0.1);
     text-align: center;
-    padding: 50px 80px;  
+    padding: 80px;  
     max-width: 1140px;
     height: 310px;
     margin: auto;
 }
-
 .stats h3 {
     font-size: 40px;
     font-weight: 700;
@@ -118,7 +112,6 @@ button:hover {
     font-size: 25px;
     color: darkslategray;
 }
-
 /* Let’s Get In Touch Section */
 .touch{
     max-width: 1440px;
@@ -158,13 +151,11 @@ form {
   flex-direction: column;
   gap: 16px;
 }
-
 label {
   font-size: 25px;
   color: #333;
   font-weight: bold;
 }
-
 input, textarea {
   padding: 12px 14px;
   font-size: 18px;
@@ -172,6 +163,64 @@ input, textarea {
   border-radius: 6px;
   background-color: #fff;
   resize: none;
+}
+/* challenginges section */
+.testimonials {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #f5f7ff;
+}
+.testimonials h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+  color: #1e1e2f;
+}
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+  padding: 20px;
+  width: 280px;
+  text-align: left;
+}
+.stars {
+  color: #fbbf24;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.card h3 {
+  font-size: 16px;
+  color: #1e1e2f;
+  margin: 10px 0;
+}
+.card p {
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 20px;
+}
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.reviewer img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.reviewer span {
+  font-weight: 600;
+  font-size: 14px;
+}
+.reviewer small {
+  color: #888;
+  font-size: 12px;
 }
 /* footer */
 .footer-section{
@@ -182,14 +231,12 @@ input, textarea {
   padding: 60px 20px;
   background-color: #f9f9ff;
 }
-
 .logo {
     margin-bottom: 20px;
     color: rgb(78, 71, 255);
     font-size: 60px;
     font-weight: 900;
 }
-
 .description {
   max-width: 600px;
   margin: 0 auto 30px auto;
@@ -198,7 +245,6 @@ input, textarea {
   color: #8a8a99;
   line-height: 1.5;
 }
-
 .nav-links {
   list-style: none;
   display: flex;
@@ -206,14 +252,12 @@ input, textarea {
   gap: 40px;
   padding: 0;
 }
-
 .nav-links li a {
   text-decoration: none;
   color: #8a8a99;
   font-size: 15px;
   transition: color 0.3s ease;
 }
-
 .nav-links li a:hover {
   color: #4f46e5;
 }
