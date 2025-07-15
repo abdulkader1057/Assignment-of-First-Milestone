@@ -121,19 +121,17 @@ button:hover {
 
 /* Let’s Get In Touch Section */
 .touch{
-    max-width: 1140px;
+    max-width: 1440px;
     height: 630px;
-    margin: 90px 150px 14px 150px;
-    padding: 70px 0;
     background:  rgb(245, 248, 255);
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 
 }
 .touch-section{
     display: flex;
-    max-width: 1000px;
+    max-width: 1200px;
     width: 90%;
     background-color: #f5f7ff;
     padding: 40px 20px;
@@ -174,5 +172,49 @@ input, textarea {
   border-radius: 6px;
   background-color: #fff;
   resize: none;
+}
+/* footer */
+.footer-section{
+    background-color: #f9f9ff;
+}
+.footer {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #f9f9ff;
+}
+
+.logo {
+    margin-bottom: 20px;
+    color: rgb(78, 71, 255);
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.description {
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+  font-size: 16px;
+  font-weight: 400;
+  color: #8a8a99;
+  line-height: 1.5;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 0;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #8a8a99;
+  font-size: 15px;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #4f46e5;
 }
 
