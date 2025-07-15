@@ -83,12 +83,12 @@ button:hover {
 }
 /* Productive Users Section */
 .stats {
-    background: rgba(78, 71, 255, 0.1);
+    background:  rgb(245, 248, 255);
     text-align: center;
     padding: 80px;  
     max-width: 1140px;
     height: 310px;
-    margin: auto;
+    margin: 50px auto;
 }
 .stats h3 {
     font-size: 40px;
@@ -120,6 +120,7 @@ button:hover {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin: 50px auto;
 
 }
 .touch-section{
